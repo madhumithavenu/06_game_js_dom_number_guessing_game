@@ -35,6 +35,9 @@ body{
     border-style: none;
     margin-top: 50px;
 }
+form #sub:hover{
+    background-color: orangered;
+}
 #guessField{
     color: black;
     width: 550px;
@@ -64,6 +67,12 @@ body{
 }
 
 h1{
+    background-color: orchid;
+    color: white;
+    text-align: center;
+    width: 750px;
+}
+h2{
     background-color: orchid;
     color: white;
     text-align: center;
