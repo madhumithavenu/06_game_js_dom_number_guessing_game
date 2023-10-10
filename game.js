@@ -27,9 +27,20 @@ function validGuess(guess){
         alert('Please enter a number greater than 11');
     }else if(guess > 100){
         alert('Please enter a number less than 500!');
-    }
-    
+    }else{
+        previousGuesses.push(guess);
+
+        if(numGuesses === 11){
+            displayGuesses(guess);
+            displayMessage(`Game Over! Number was ${randomNumber}`);
+            endGame();
+        }else{
+            displayGuesses(guess);
+            checkGuess(guess);
+        }
+    }  
 }
+
 
 
 
