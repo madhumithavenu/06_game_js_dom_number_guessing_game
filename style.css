@@ -1,0 +1,9 @@
+html{
+    font-family: sans-serif, 'cursive';
+}
+body{
+    width: 50%;
+    max-width: 750px;
+    min-width: 480px;
+    margin: 0 auto;
+}
